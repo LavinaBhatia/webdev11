@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="cssweb/firstpage.css">
+</head>
+<body>
+	<header>
+		<h1>THE WEDDING PLANNER</h1>
+		<div class="menu">
+			<nav>
+				<a href="vendors.html">VENDORS</a>
+				<a href="giftideas.html">GIFT IDEAS</a>
+				<a href="shopping.html">SHOPPING</a>
+				<a href="wedtrends.html">WED TRENDS</a>
+				<a id="myBtn">LOGIN</a>
+<div id="mylogin" class="modal">
+  <div class="login-content">
+  		
+    <span class="close">x</span>
+    <p class="center">SIGN UP into&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:white; font-size:22px"> THE WEDDING PLANNER</span></p>
+    <div id="wrapper">
+    	
+	<form method="POST" onsubmit="return Validate()" name="vForm" action="http://localhost/mysql_connect.php">
+		<div>
+			<input type="text" name="username" id="username" class="textInput" placeholder="username"><div id="name_error" class="val_error"></div>
+		</div>
+		<div>
+			<input type="email" name="email" class="textInput" placeholder="Email">
+			<div id="email_error" class="val_error"></div>
+		</div>
+		<div>
+			<input type="password" name="password" id="password" class="textInput" placeholder="password">
+		</div>
+		
+		<!--<div>
+			<input type="password" name="password_confirmation" class="textInput" placeholder="password confirmation">
+			<div id="password_error" class="val_error"></div>
+		</div>-->
+		<div>
+			<input type="submit" class="btn" name="register" id="submit" value="LogIn">
+			<p style="color:#800080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forget password?</p>
+		</div>
+	</form>
+</div>
+
+</div>
+</div>
+    
+	
+				</div>
+			</nav>
+
+		</div>
+	</header>
+	
+	<main>
+	<div class="image"> 
+		
+		<img id="img1" src="image/image3.jpg" alt="image1" style="display: none"/>
+    <img id="img2" src="image/image4.jpg" alt="image2"style="display: none"/>
+    <img id="img3" src="image/image1.jpg" alt="image3"style="display: none"/>
+    <script src="myScript.js"></script>
+    <h2 class="styletext">COME & MAKE YOUR WEDDING MEMORABLE WITH US !!!</br>
+    
+</div>
+</main>
+</body>
+
+</html>
+
+<script type="text/javascript">
+var modal = document.getElementById('mylogin');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+// GETTING ALL INPUT TEXT FIELDS
+	var username = document.forms["vForm"]["username"];
+	var email = document.forms["vForm"]["email"];
+	var password = document.forms["vForm"]["password"];
+	//var password_confirmation = document.forms["vForm"]["password_confirmation"];
+	// GETTING ALL ERROR OBJECTS
+	var name_error = document.getElementById("name_error");
+	var email_error = document.getElementById("email_error");
+	var password_error = document.getElementById("password_error");
+	// SETTING ALL EVENT LISTENERS
+	username.addEventListener("blur", nameVerify, true);
+	email.addEventListener("blur", emailVerify, true);
+	function Validate(){
+		// VALIDATE USERNAME
+		if(username.value == ""){
+			name_error.textContent = "*required";
+			//username.style.border = "1px solid red";
+			username.focus();
+			return false;
+		}
+		// VALIDATE EMAIL
+		if(email.value == ""){
+			email_error.textContent = "*required";
+			//email.style.border = "1px solid red";
+			email.focus();
+			return false;
+		}
+		// VALIDATE PASSWORD
+		if (password.value != password_confirmation.value) {
+			password_error.textContent = "The two passwords do not match";
+			//password.style.border = "1px solid red";
+			//password_confirmation.style.border = "1px solid red";
+			password.focus();
+			return false;
+		}
+		// PASSWORD REQUIRED
+		if (password.value == "" || password_confirmation.value == "") {
+			password_error.textContent = "*required";
+			password.style.border = "1px solid red";
+			//password_confirmation.style.border = "1px solid red";
+			password.focus();
+			return false;
+		}
+	}
+	// ADD EVENT LISTENERS
+	function nameVerify(){
+		if (username.value != "") {
+			name_error.innerHTML = "";
+			username.style.border = "1px solid #110E0F";
+			return true;
+		}
+	}
+	function emailVerify(){
+		if (email.value != "") {
+			email_error.innerHTML = "";
+			email.style.border = "1px solid #110E0F";
+			return true;
+		}
+	}
+	var submit = document.getElementById("submit");
+	submit.onclick = function() {
+   
+}
+</script>

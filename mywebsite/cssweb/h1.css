@@ -1,0 +1,26 @@
+header{
+	background-color: #888888;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-style: Bebas;
+}
+a{
+	background-color:#999999;
+	color:black;
+}
+section{
+	background-color: #777777;
+}
+h2{
+	font-variant: small-caps;
+	color: blue;
+}
+p{
+	font-style: bold;
+}
+img
+{
+	display:none;
+}

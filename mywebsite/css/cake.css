@@ -1,0 +1,182 @@
+body
+{
+	background-color: #800080;
+/*	background-image: url('image/backcake.jpg');*/
+}
+
+h1
+{
+	color:white;
+	text-align: center;
+	padding: 10px;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 3%;
+	padding:10px 27px;
+	border-radius: 5px;
+	background-color:rgba(230,247,255,0.4);
+	color:#002333;
+	text-align: center;
+	display:inline-block;
+	font-size: 120%;
+	/*cursor: pointer;*/
+	box-shadow: 0 5px 0 #006599;
+	transition: all .1s linear;
+}
+
+a:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+.menu{
+    width: 1000px;
+    padding: 27px;
+    border: 1px solid gray;
+    margin: 0;
+    display: inline-block;
+    background-color: #D8BFD8;
+}
+.cake1{
+	width:950px;
+	/*padding:27px;*/
+	border-radius: 5px;
+	border: 1px solid gray;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.cake2{
+	width:950px;
+	/*padding:27px;*/
+	border-radius: 5px;
+	border: 1px solid gray;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.top{
+	/*padding: 5px;*/
+	margin-top: 5px;
+}
+.review{
+	color:grey;
+	padding: 1px;
+}
+.bottom{
+	margin-bottom: -50px;
+}
+.cake2{
+	margin-left: 50px;
+	border-radius: 5px;
+	border: 1px solid gray;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+
+
+}
+/*.table{
+	display: table;
+    border-collapse: separate;
+    cellspacing: 80px;
+    border-color: gray;
+	/*padding:20px 37px;*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+}
+
+/* The Close Button */
+.close {
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*ul.a{
+	list-style-type: none;
+	width: 45px;
+	
+
+}
+ul.a li.b{
+	display: inline-block;
+}*/
+.glyphicon-map-marker{
+    position: absolute;
+    top: -0.313em;
+    right: -0.313em;
+    font-size: 2em;
+    color: #77dd77; 
+}
+.a{
+	text-decoration: none;
+	box-shadow: none;
+	border-radius: 0px;
+	border-style: outset;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1.5px;
+	background-color:#ffffff;
+	float: left;
+	width: 40%;
+	margin-left: 5px;
+	margin-top: 40px;
+	transition:all .0s linear;
+	transform:translateY(0px);
+}
+.b{
+	float: left;
+	background-color: #ffffff;
+	box-shadow:none;
+	border-radius:0px;
+	width: 43%;
+	margin-left: -3px;
+	margin-top: 40px;
+	transition:all .0s linear;
+	transform:translateY(0px);
+	border-style: outset;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+.b:hover{
+	color:#E6E6FA;
+}
+.up{
+
+	font-size: 30px;
+	margin-top: -15px;
+	border-style: inset;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	
+}

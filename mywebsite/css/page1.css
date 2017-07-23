@@ -1,0 +1,107 @@
+body
+{
+	background-color: #800080;
+}
+
+h1
+{
+	color:white;
+	text-align: center;
+	padding: 10px;
+}
+.menu{
+    width: 1000px;
+    padding: 27px;
+    border: 1px solid gray;
+    margin: 0;
+    display: inline-block;
+    background-color: #D8BFD8;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 3%;
+	padding:10px 27px;
+	border-radius: 5px;
+	background-color:rgba(230,247,255,0.4);
+	color:#002333;
+	text-align: center;
+	display:inline-block;
+	font-size: 120%;
+	/*cursor: pointer;*/
+	box-shadow: 0 5px 0 #006599;
+	transition: all .1s linear;
+}
+
+a:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+img
+{
+	position: relative;
+	width:1055px;
+	height: 400px;
+	padding: 5px 0px;
+}
+.image{
+display:inline-block;
+position:relative;
+}
+h2 { 
+   position: absolute; 
+   text-align: center;
+   top: 80px; 
+   left: 0; 
+   width: 100%; 
+}
+.image a{
+	position: absolute;
+	top: 230px;
+	left:0;
+	width: 100%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 80%; /* Full width */
+    height: 350%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.login-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.stylebutton
+{
+       background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

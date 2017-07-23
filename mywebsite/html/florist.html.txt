@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<head lang="en">
+	<meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+   
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+<link rel="stylesheet" href="cssweb/florist1.css">
+</head>
+<body>
+	<header>
+		<h1>THE WEDDING PLANNER</h1>
+		<div class="menu">
+			<nav>
+				<a href="firstpage.html">HOME</a>
+				<a href="vendors.html">VENDORS</a>
+				<a href="giftideas.html">GIFT IDEAS</a>
+				<a href="shopping.html">SHOPPING</a>
+			</nav>
+		</div>
+	</header>
+	<div class="mumbai">
+		<h3 class="stylemumbai">WEDDING FLORISTS IN MUMBAI</h3>
+	</div>
+	<div class="cake1">
+		<table>
+			<th>
+		<img src="image/cityflower.jpg" alt="flower" height="220px" widht="200px"></th>
+		<th>
+
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;the most famous of all time <span style="font-weight:bold ; color:green">CELEBRITY</span> special!!!</p>
+				<h3 align="center">CITY FLOWERS</h3>
+				<p class="review"><span style="color:black">in reviews:</span>My no 1 choice to send flowers in Mumbai. Thanks for making us so much happy and you made us proud on you
+</p>	
+							<nav>
+				<a id="mybtn" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">Mumbai Flower Shop</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">902-902-3000</span></p>
+		</div> 
+		</div>
+		<a href="https://www.cityflowers.co.in/send-flowers-to-mumbai-delivery/" class="b">Visit Website</a>
+	
+</nav>
+<script type="text/javascript">
+// Get the modal
+var modal = document.getElementById('mymodal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("mybtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+	<div class="cake2">
+		<table>
+			<th>
+		<img src="image/flowerimg2.jpg" height="210px"  width="220px"alt="flower"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;healthy and delicious cake at reasonable cost <span style="font-weight:bold ; color:green">Reasonable Cost</span></p>
+				<h3 align="center">May Flower - Florist, Flower and Petals Shop
+</h3>
+				<p class="review"><span style="color:black">in reviews:</span>"Quick service, on time delivery, fresh flowers and always lovely arrangements." </p>
+							<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn1" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal1" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">May Flower - Florist, Flower and Petals Shop
+</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">8199996288</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://hangoutcakes.com/wedding-cakes-online" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav><script type="text/javascript">
+// Get the modal
+var modal1 = document.getElementById('mymodal1');
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("mybtn1");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close")[1];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+</script>
+
+
+					</section>
+					
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+<div class="cake1">
+		<table>
+			<th>
+		<img src="image/flowerciti.jpg" alt="flower" height="220px"  width="220px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Well-known name in specializing in desserts due to its <span style="font-weight:bold ; color:green">personal and professional touch</span> </p>
+				<h3 align="center">Flurup-The International Design</h3>
+				<p class="review"><span style="color:black">in reviews:</span>"Remember making desserts is our passion if eating is yours!"</p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn2" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal2" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">Flurup-The International Design</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">91-9820503001</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.flowerciti.com/shopping/products.asp" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+<script type="text/javascript">
+// Get the modal
+var modal2 = document.getElementById('mymodal2');
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("mybtn2");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close")[2];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+</script>
+
+
+
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake2">
+		<table>
+			<th>
+		<img src="image/mayaflower.jpg" alt="flower" height="220px" width="200px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Quick Delivery and Value for <span style="font-weight:bold ; color:green">MONEY</span> special!!!</p>
+				<h3 align="center">Wedding Flower Decorators Mumbai</h3>
+				<p class="review"><span style="color:black">in reviews:</span>TMaya.florist offer a huge resources of hand arranged bouquets created by a local florist available for same day flowers delivered.
+</p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn3" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal3" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">Wedding Flower Decorators Mumbai</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">8199993344</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="https://www.mayaflowers.com/wedding-florist-mumbai-flower-decorators/
+" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal3 = document.getElementById('mymodal3');
+
+// Get the button that opens the modal
+var btn3 = document.getElementById("mybtn3");
+// Get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close")[3];
+
+// When the user clicks the button, open the modal 
+btn3.onclick = function() {
+    modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() {
+    modal3.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+}
+</script>
+
+				
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+<div class="cake1">
+		<table>
+			<th>
+		<img src="image/floristgood.jpg" alt="flower" height="200px" width="220px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Always the <span style="font-weight:bold ; color:green">CHOICE</span> <span class="glyphicon glyphicon-grain" aria-hidden="true"></p>
+				<h3 align="center">"Florist Good"-Temple-Of-Flower</h3>
+				<p class="review"><span style="color:black">in reviews:</span>If you have a massive sweet tooth like me, then this place is your heaven. The options & flavours are so many that you will be spilt for choice.
+Great service too.. </p>
+							<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn4" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal4" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">"Florist Good"-Temple-Of-Flower</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">022-24461507</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="https://www.weddingplz.com/mumbai/florists/temple-of-flower-mahim-west/portfolio" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal4 = document.getElementById('mymodal4');
+
+// Get the button that opens the modal
+var btn4 = document.getElementById("mybtn4");
+
+// Get the <span> element that closes the modal
+var span4 = document.getElementsByClassName("close")[4];
+
+// When the user clicks the button, open the modal 
+btn4.onclick = function() {
+    modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span4.onclick = function() {
+    modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+}
+</script>
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake2">
+		<table>
+			<th>
+		<img src="image/houseofflowers.jpg" alt="flower" height="220px" width="200px"></th>
+		<th>
+			<section>
+				<p class="top"> &nbsp;&nbsp;&nbsp;  <span style="font-weight:bold ; color:green">Fluffy</span> and <span style="font-weight:bold ; color:   #DAF7A6 "> Creamy </span> and rich !!</p>
+				<h3 align="center">House-Of-Flowers &nbsp; &nbsp; &nbsp; &nbsp;<span  id="style-icon"class="glyphicon glyphicon-map-marker"  aria-hidden=true></span></h3>
+				<p class="review"><span style="color:black">in reviews:</span>A real one . photo on chocolate truffle was so mouth watering and beautiful . and is worth the cost. . ;) awesome cake ..just loved it :) </p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn5" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal5" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">house-of-flowers</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">18002096323</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://houseofflowers.in/wedding-content" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal5 = document.getElementById('mymodal5');
+
+// Get the button that opens the modal
+var btn5 = document.getElementById("mybtn5");
+
+// Get the <span> element that closes the modal
+var span5 = document.getElementsByClassName("close")[5];
+
+// When the user clicks the button, open the modal 
+btn5.onclick = function() {
+    modal5.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span5.onclick = function() {
+    modal5.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+}
+</script>			
+			
+</section>
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake1">
+	<table >
+			<th>
+		<img src="image/florista.jpg" alt="flower" height="220px" width="200px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;The most famous of all time <span style="font-weight:bold ; color:green">PEOPLE</span> special!!!</p>
+				<h3 align="center">FLORISTA</h3>
+				<p class="review"><span style="color:black">in reviews:</span>Almost on every occasion or during sweet tooth cravings i land up at only one place- Monginis!</p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn6" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal6" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">FLORISTA</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">22 28692500 </span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.florista.in/occasion/wedding/56975de13b326d0c8c4a88f2" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+		
+<script>
+// Get the modal
+var modal6 = document.getElementById('mymodal6');
+
+// Get the button that opens the modal
+var btn6 = document.getElementById("mybtn6");
+
+// Get the <span> element that closes the modal
+var span6 = document.getElementsByClassName("close")[6];
+
+// When the user clicks the button, open the modal 
+btn6.onclick = function() {
+    modal6.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span6.onclick = function() {
+    modal6.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+}
+</script>		
+			</section>
+			
+		</th>
+		</table>
+
+	</div>
+</body>
+</html>

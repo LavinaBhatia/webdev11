@@ -1,0 +1,478 @@
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+   
+
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+   
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+<link rel="stylesheet" href="cssweb/cake.css">
+
+</head>
+<body>
+	<header>
+		<h1>THE WEDDING PLANNER</h1>
+		<div class="menu">
+			<nav>
+				<a href="firstpage.html">HOME</a>
+				<a href="vendors.html">VENDORS</a>
+				<a href="giftideas.html">GIFT IDEAS</a>
+				<a href="shopping.html">SHOPPING</a>
+			</nav>
+		</div>
+	</header>
+	<div class="mumbai">
+		<h3 class="stylemumbai">WEDDING PHOTOGRAPHERS IN MUMBAI</h3>
+	</div>
+	<div class="cake1">
+		<table>
+			<th>
+		<img src="image/photo1.jpg" alt="cake" width="200px" height="220px"></th>
+		<th>
+
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click <span style="font-weight:bold ; color:green"> Click </span> & Click!!</p>
+				<h3 align="center">WEDDING MAMA</h3>
+				<p class="review"><span style="color:black">in reviews:</span>They specialize in luxurious wedding photography, destination weddings and cinematography. </p>	
+							<nav>
+				<a id="mybtn" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">WEDDING MAMA</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">902-902-3000</span></p>
+		</div> 
+		</div>
+		<a href="http://www.shaadisaga.com/mumbai/wedding-photographers/weddingnama-202" class="b">Visit Website</a>
+	
+</nav>
+<script type="text/javascript">
+// Get the modal
+var modal = document.getElementById('mymodal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("mybtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+	<div class="cake2">
+		<table>
+			<th>
+		<img src="image/photo2.jpg" width="210px" height="240px" alt="cake"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(-: Captured  <span class="glyphicon glyphicon-camera" aria-hidden="true"></span> <span class="glyphicon glyphicon-camera" aria-hidden="true"></span><span style="font-weight:bold ; color:green"> Moments</span> :-)</p>
+				<h3 align="center">WEDDING SALAD</h3>
+				<p class="review"><span style="color:black">in reviews:</span>They capture photos in candid as well as documentary style, the Emotions, Story, Gossip, Drama, Style, Rhythm, Love, Ceremonies, Portraits, Details, DÃ©cor and everything else under the sun that is a part of your wedding! í±Œ </p>
+							<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn1" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal1" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">WEDDING SALAD</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">9769755034</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://theweddingsalad.com/" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav><script type="text/javascript">
+// Get the modal
+var modal1 = document.getElementById('mymodal1');
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("mybtn1");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close")[1];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+</script>
+
+
+					</section>
+					
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+<div class="cake1">
+		<table>
+			<th>
+		<img src="image/photo3.jpg" alt="cake" width="200px" height="220px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Event to cherished<span style="font-weight:bold ; color:green"> again & again</span> </p>
+				<h3 align="center">JODI CLICKERS</h3>
+				<p class="review"><span style="color:black">in reviews:</span> Each and every wedding they cover is unique and distinctive. </p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn2" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal2" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">JODI CLICKERS</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">9930081182</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.jodiclickers.com/Photography" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+<script type="text/javascript">
+// Get the modal
+var modal2 = document.getElementById('mymodal2');
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("mybtn2");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close")[2];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+</script>
+
+
+
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake2">
+		<table>
+			<th>
+		<img src="image/photo4.jpg" alt="cake" width="200px" height="220px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Photo<span style="font-weight:bold ; color:green"> Addict!!</span> special!!!</p>
+				<h3 align="center">FOTOGRAPHIA</h3>
+				<p class="review"><span style="color:black">in reviews:</span>"The only thing that you take away from your wedding, besides your wedding dress , are the wedding photos"
+ </p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn3" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal3" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">FOTOGRAPHIA</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">9167460298</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.fotografia9.com" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal3 = document.getElementById('mymodal3');
+
+// Get the button that opens the modal
+var btn3 = document.getElementById("mybtn3");
+// Get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close")[3];
+
+// When the user clicks the button, open the modal 
+btn3.onclick = function() {
+    modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() {
+    modal3.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+}
+</script>
+
+				
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+<div class="cake1">
+		<table>
+			<th>
+		<img src="image/photo5.jpg" alt="cake" width="210px" height="220px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Always the <span style="font-weight:bold ; color:#DAF7A6">CHOICE</span> <span class="glyphicon glyphicon-grain" aria-hidden="true"></p>
+				<h3 align="center">CANDIDSHUTTERS</h3>
+				<p class="review"><span style="color:black">in reviews:</span>We are a set of passionate people who love just one thing-Photography and this is the precise reason why our pictures and films come out so nice.</p>
+							<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn4" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal4" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">CANDIDSHUTTERS</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">8080470280</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.candidshutters.com/" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal4 = document.getElementById('mymodal4');
+
+// Get the button that opens the modal
+var btn4 = document.getElementById("mybtn4");
+
+// Get the <span> element that closes the modal
+var span4 = document.getElementsByClassName("close")[4];
+
+// When the user clicks the button, open the modal 
+btn4.onclick = function() {
+    modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span4.onclick = function() {
+    modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+}
+</script>
+			</section>
+			
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake2">
+		<table>
+			<th>
+		<img src="image/photo6.jpg" alt="cake" height="200px" width="220px"></th>
+		<th>
+			<section>
+				<p class="top"> &nbsp;&nbsp;&nbsp;  <span style="font-weight:bold ; color:green">Photographers</span> Passionate</p>
+				<h3 align="center">TAJ FOTO STUDIO &nbsp; &nbsp; &nbsp; &nbsp;<span  id="style-icon"class="glyphicon glyphicon-map-marker"  aria-hidden=true></span></h3>
+				<p class="review"><span style="color:black">in reviews:</span>Just made my wedding!! Looked like a grand taj by TAJ FOTO STUDIO :-) </p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn5" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal5" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">TAJ FOTO STUDIO</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">022 2640 7589</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://tajfotostudio.com/" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+
+<script type="text/javascript">
+// Get the modal
+var modal5 = document.getElementById('mymodal5');
+
+// Get the button that opens the modal
+var btn5 = document.getElementById("mybtn5");
+
+// Get the <span> element that closes the modal
+var span5 = document.getElementsByClassName("close")[5];
+
+// When the user clicks the button, open the modal 
+btn5.onclick = function() {
+    modal5.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span5.onclick = function() {
+    modal5.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+}
+</script>			
+			
+</section>
+		</th>
+		</table>
+		<!--<h4>deliciae pastisserrie</h4>-->
+	</div>
+
+<div class="cake1">
+	<table >
+			<th>
+		<img src="image/photo7.jpg" alt="cake" height="220px" width="200px"></th>
+		<th>
+			<section>
+				<p class="top">&nbsp;&nbsp;&nbsp;Present at your  <span style="font-weight:bold ; color:green">WINK</span>!!</p>
+				<h3 align="center">Winks Films & Photography</h3>
+				<p class="review"><span style="color:#000000">in reviews:</span>"The only thing that you take away from your wedding, besides your wedding dress , are the wedding photos"</p>
+				<nav>
+				<!--<ul class="a">
+		    <li class="c">--><a id="mybtn6" class="a"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CALL</a>
+			<div id="mymodal6" class="modal">
+			<div class="modal-content">
+			<header class="up">	
+			<span class="close">X</span>
+			<p align="center">Winks Films & Photography</p>
+			
+		</header>
+			<p align="center">Phone Number</br>
+				<span style="color:red">09820810060</span></p>
+		</div> 
+		</div>
+		<!--<li class="c">--><a href="http://www.3winks.in/" class="b">Visit Website</a>
+	<!--</ul>-->
+</nav>
+		
+<script>
+// Get the modal
+var modal6 = document.getElementById('mymodal6');
+
+// Get the button that opens the modal
+var btn6 = document.getElementById("mybtn6");
+
+// Get the <span> element that closes the modal
+var span6 = document.getElementsByClassName("close")[6];
+
+// When the user clicks the button, open the modal 
+btn6.onclick = function() {
+    modal6.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span6.onclick = function() {
+    modal6.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+}
+</script>		
+			</section>
+			
+		</th>
+		</table>
+
+	</div>
+	<!--<div class="extra">
+		<a href="realweddingcakes.html"><img src="image/cakecollage.jpg">
+			<a href="weddingcakeadvice.html"><img src="image/cakecoll1.jpg">
+			</div>-->
+	</body>
+
+</html>
